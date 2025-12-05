@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: flutter_calculator_app
+    ports:
+      - "4040:80"
